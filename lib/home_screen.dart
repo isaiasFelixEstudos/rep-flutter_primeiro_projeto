@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
         title: Text('Novo App'),
       ),
       drawer: Drawer(child: Text('Eu sou um DRAWER')),
-      body: const Column(
+      body: Column(
         children: [
           TextField(
             decoration: InputDecoration(
